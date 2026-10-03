@@ -11,10 +11,12 @@ while winner ==  False:
   if number == secret_number:
     print(f"The secret number is {secret_number}, you win!")
     winner = True
+    break
 
   elif number > secret_number:
     
     print("Too high! Try a smaller number.")
 
-else:
+  else:
     print("Too low! Try a bigger number.")
+
